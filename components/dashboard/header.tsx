@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation"
 import { useTheme } from "next-themes"
 import { createBrowserClient } from "@supabase/ssr"
 import { motion, AnimatePresence } from "framer-motion"
+import { BarChart2 } from "lucide-react"
 
 import {
   Settings,
@@ -244,6 +245,22 @@ export function DashboardHeader() {
               >
                 <User className="mr-3 h-4 w-4 text-primary" />
                 <span className="font-medium">Meu Perfil</span>
+              </DropdownMenuItem>
+
+              <DropdownMenuItem 
+                onClick={() => router.push("/relatorios")} 
+                className="rounded-xl py-2.5 focus:bg-primary/10 cursor-pointer"
+              >
+                <BarChart2 className="mr-3 h-4 w-4 text-primary" />
+                <span className="font-medium">Relatórios</span>
+              </DropdownMenuItem>
+
+              <DropdownMenuItem 
+                onClick={() => router.push("/configuracoes")} 
+                className="rounded-xl py-2.5 focus:bg-primary/10 cursor-pointer"
+              >
+                <Settings className="mr-3 h-4 w-4 text-primary" />
+                <span className="font-medium">Configurações</span>
               </DropdownMenuItem>
 
               <DropdownMenuItem 
