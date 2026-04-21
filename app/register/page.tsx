@@ -113,7 +113,7 @@ export default function RegisterPage() {
           <div className="flex items-center justify-center w-14 h-14 rounded-2xl bg-accent text-accent-foreground mb-4">
             <TrendingUp className="w-7 h-7" />
           </div>
-          <h1 className="text-2xl font-bold text-foreground">Finance Tracker</h1>
+          <h1 className="text-2xl font-bold text-foreground">Prodigy Finance</h1>
           <p className="text-muted-foreground text-sm mt-1">
             Crie sua conta e comece a controlar suas finanças
           </p>

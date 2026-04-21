@@ -19,7 +19,7 @@ function errorResponse(message: string, status: number): { error: NextResponse }
 export async function getRouteAuth(): Promise<RouteAuthResult> {
   if (!isSupabaseConfigured()) {
     return errorResponse(
-      "Supabase não configurado. Crie .env.local na pasta FinanceTracker (veja /setup).",
+      "Supabase não configurado. Crie .env.local na pasta Prodigy Finance (veja /setup).",
       503
     )
   }

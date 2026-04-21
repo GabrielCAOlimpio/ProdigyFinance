@@ -1,8 +1,8 @@
-# 💰 Finance Tracker
+# 💰 Prodigy Finance
 
 > Controle seu dinheiro em segundos, sem complicação.
 
-![Finance Tracker](https://img.shields.io/badge/Finance-Tracker-green?style=for-the-badge)
+![Prodigy Finance](https://img.shields.io/badge/Prodigy-Finance-green?style=for-the-badge)
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
 ![Supabase](https://img.shields.io/badge/Supabase-green?style=for-the-badge&logo=supabase)
@@ -12,7 +12,7 @@
 
 ## 📌 Sobre o Projeto
 
-O **Finance Tracker** é uma aplicação web de controle financeiro pessoal desenvolvida para ajudar usuários a acompanhar receitas e despesas de forma simples, visual e acionável.
+O **Prodigy Finance** é uma aplicação web de controle financeiro pessoal desenvolvida para ajudar usuários a acompanhar receitas e despesas de forma simples, visual e acionável.
 
 Com uma interface moderna inspirada em sistemas de gamificação (como o Duolingo), o app incentiva o usuário a registrar suas finanças diariamente através de um sistema de **ofensiva (streak)** — recompensando a consistência.
 
@@ -48,7 +48,7 @@ Com uma interface moderna inspirada em sistemas de gamificação (como o Duoling
 ## 📁 Estrutura do Projeto
 
 ```
-FinanceTracker/
+ProdigyFinance/
 ├── app/
 │   ├── api/
 │   │   ├── incomes/          # CRUD de receitas
@@ -154,8 +154,8 @@ CREATE POLICY "users_own_expenses" ON expenses FOR ALL USING (auth.uid() = user_
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/GabrielCAOlimpio/FinanceTracker.git
-cd FinanceTracker
+git clone https://github.com/GabrielCAOlimpio/ProdigyFinance.git
+cd ProdigyFinance
 ```
 
 ### 2. Instale as dependências
@@ -166,7 +166,7 @@ npm install
 
 ### 3. Configure as variáveis de ambiente
 
-Crie o arquivo `.env.local` na raiz do projeto:
+Crie o arquivo `.env.local` na pasta ProdigyFinance:
 
 ```env
 NEXT_PUBLIC_SUPABASE_URL=https://xxxx.supabase.co

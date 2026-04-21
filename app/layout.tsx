@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Finance Tracker - Gestão Financeira Pessoal',
+  title: 'Prodigy Finance - Gestão Financeira Pessoal',
   description: 'Gerencie suas finanças pessoais de forma simples e eficiente',
   generator: 'v0.app',
   icons: {

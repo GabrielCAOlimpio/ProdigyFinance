@@ -12,7 +12,7 @@ export async function createClient() {
 
   if (!env) {
     throw new Error(
-      "Supabase não configurado. Crie FinanceTracker/.env.local com " +
+      "Supabase não configurado. Crie ProdigyFinance/.env.local com " +
       "NEXT_PUBLIC_SUPABASE_URL e NEXT_PUBLIC_SUPABASE_ANON_KEY e reinicie npm run dev."
     )
   }

@@ -1,10 +1,10 @@
-# 📄 PRD — Finance Tracker (MVP)
+# 📄 PRD — Prodigy Finance (MVP)
 
 ---
 
 ## 🧠 1. Visão do Produto
 
-**Nome:** Finance Tracker
+**Nome:** Prodigy Finance
 
 **Objetivo:** Permitir que usuários acompanhem sua vida financeira de forma simples, visual e acionável — entendendo claramente para onde o dinheiro vai, de onde vem e como melhorar o controle.
 

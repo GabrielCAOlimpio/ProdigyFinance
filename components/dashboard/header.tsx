@@ -113,7 +113,7 @@ export function DashboardHeader() {
           </div>
 
           <span className="text-xl font-black tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">
-            Finance Tracker
+            Prodigy Finance
           </span>
         </motion.div>
 
